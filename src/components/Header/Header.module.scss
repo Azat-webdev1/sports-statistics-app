@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  background-color: #364fc7;
+  text-align: center;
+  height: 60px;
+  .logoBlock {
+    margin-left: 15px;
+    padding-top: 12px;
+    .logo {
+      width: 100px;
+    }
+  }
+  .nav {
+    margin-left: 55px;
+    .list {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+    }
+    .link:hover {
+      opacity: .9;
+      transform: scale(1.3);
+    }
+  }
+}
